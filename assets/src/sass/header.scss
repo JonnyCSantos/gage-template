@@ -146,15 +146,15 @@ button#hamburguer-x > i {
   padding: 55px 50px 50px 50px;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: calc(-70% - 200px);
   width: 70%;
   box-shadow: rgba(0,0,0,0.8) 3px 7px 55px;
+  transition: 1s;
   z-index: 101;
 }
 
 .mask {
   background-color: rgba(0,0,0,.5);
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
