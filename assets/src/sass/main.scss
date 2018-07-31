@@ -1,3 +1,5 @@
+/* Home */
+
 button#engajar-fixed img {
   width: 90%;
   position: absolute;
@@ -22,3 +24,91 @@ button#engajar-fixed > i {
   font-size: 5em;
   padding-left: 12px;
 }
+
+/* Home */
+
+/* Engajar */
+
+.gage {
+  margin-top: 20px;
+  color: #797979;
+}
+
+.gage h2 {
+  font-size: 1.2em;
+  color: #464646;
+}
+
+p.info {
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  background-color: #e8e8e8;
+  padding: 10px;
+  font-size: .7em;
+  font-weight: 400;
+  color: #272727;
+  text-align: left;
+  line-height: 20px;
+  margin: 15px 0 20px;
+}
+
+input#url-novo-post {
+  border: 0;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 0.8em;
+  color: #888888;
+  padding: 10px;
+  display: block;
+  margin: 10px 0px;
+  width: -webkit-fill-available;
+}
+
+span#politica {
+  display: block;
+  margin: 10px 0px;
+  font-size: .8em;
+  color: #007d85;
+}
+
+input#confirm {
+  transform: scale(1.5);
+}
+
+span.confirm {
+  display: inline-block;
+  font-size: .8em;
+  margin-left: 5px;
+}
+
+.img-post-exemple {
+  margin: 10px 0px;
+  background-color: #e8e8e8;
+  padding: 80px;
+  text-align: center;
+  border: 1px solid #696969;
+  border-radius: 10px;
+}
+
+form.engajar span {
+  color: #464646;
+}
+
+input#gages-qtd {
+  border: 0;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 0.8em;
+  color: #888888;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 20%;
+}
+
+button.btn-qtd {
+  background-color: #464646;
+  color: #ffffff;
+  border: 0;
+  padding: 5px 20px;
+  font-size: 1em;
+}
+/* Engajar */
+
