@@ -1,36 +1,12 @@
-
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15pt;
-}
-
 header {
   background-color: #464646;
-  height: 150px;
-  padding-top: 20px;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.flex {
-  display: flex;
-}
-
-.justify-content-between {
-  justify-content: space-between;
-}
-
-.align-flex-items {
-  align-items: center;
+  padding: 10px 0px;
 }
 
 nav h3 {
   color: #00c5b8;
-  font-size: 3em;
+  font-size: 1.2em;
+  margin: 20px 0px;
 }
 
 ul li.item {
@@ -48,13 +24,13 @@ li.item > a > i {
 li.item > a {
   color: #fff;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: .9em;
 }
 
 // Icons 
 
 i.fas.fa-fire {
-  margin-right: 35px;
+  margin-right: 20px;
 }
 
 i.fas.fa-users-cog {
@@ -62,7 +38,7 @@ i.fas.fa-users-cog {
 }
 
 i.fas.fa-chart-line {
-  margin-right: 22px;
+  margin-right: 15px;
 }
 
 i.fas.fa-exchange-alt {
@@ -78,8 +54,9 @@ i.fas.fa-graduation-cap {
 }
 
 i.fas.fa-envelope {
-  margin-right: 25px;
+  margin-right: 18px;
 }
+
 i.fas.fa-comments {
   margin-right: 15px;
 }
@@ -93,7 +70,7 @@ button#hamburguer-menu {
 
 button#hamburguer-menu > i {
   color: #fff;
-  font-size: 5em;
+  font-size: 2.5em;
 }
 
 button#hamburguer-x {
@@ -101,27 +78,26 @@ button#hamburguer-x {
   border: none;
 }
 
-button#hamburguer-x > i {
+button#hamburguer-x>i {
   color: #fff;
-  font-size: 5em;
+  font-size: 2em;
 }
 
 .status {
   display: block;
   position: relative;
-  width: 20%;
 }
 
-.status > a > i {
+.status>a>i {
   color: #fff;
-  font-size: 3em;
+  font-size: 1.3em;
   margin-left: 10px;
 }
 
 .status>a>img {
-  width: 40%;
-  margin-left: 30px;
-  margin-bottom: -8px;
+  width: 25px;
+  margin-left: 5px;
+  margin-bottom: -4px;
 }
 
 .status > a {
@@ -129,21 +105,21 @@ button#hamburguer-x > i {
 }
 
 .nav-header {
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #fff;
 }
 
-.nav-header > a {
+.nav-header>a {
   color: #fff;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 1.1em;
   float: right;
 }
 
 .nav-menu {
   display: block;
   background-color: #272727;
-  padding: 55px 50px 50px 50px;
+  padding: 15px 20px 15px 20px;
   position: absolute;
   top: 0px;
   left: calc(-70% - 200px);
@@ -163,12 +139,18 @@ button#hamburguer-x > i {
 }
 
 figure.logo {
-  width: 45%;
+  width: 50%;
+  margin: 0px;
 }
 
 figure.logo img {
-  width: 365px;
+  width: 160px;
 }
+
+.nav-content ul {
+  padding-left: 15px;
+}
+
 
 /** Muito pequeno **/
 
