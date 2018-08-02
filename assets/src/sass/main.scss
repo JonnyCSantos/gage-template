@@ -25,6 +25,11 @@ button#engajar-fixed > i {
   padding-left: 12px;
 }
 
+.feed {
+  margin-top: 20px;
+  color: #797979;
+}
+
 /* Home */
 
 /* Engajar */
@@ -110,5 +115,22 @@ button.btn-qtd {
   padding: 5px 20px;
   font-size: 1em;
 }
+
+button#btn-engajar {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 100px;
+  font-size: 1.1em;
+  background-color: #00b7ae;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.breadcrumps p {
+  font-size: .7em;
+  margin-bottom: 10px;
+}
+
 /* Engajar */
 

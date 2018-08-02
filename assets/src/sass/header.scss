@@ -1,3 +1,5 @@
+/** Muito pequeno **/
+
 header {
   background-color: #464646;
   padding: 10px 0px;
@@ -45,8 +47,8 @@ i.fas.fa-exchange-alt {
   margin-right: 20px;
 }
 
-i.fas.fa-bullhorn {
-  margin-right: 15px;
+li.item a i.fa-rocket {
+  margin-right: 20px;
 }
 
 i.fas.fa-graduation-cap {
@@ -60,8 +62,6 @@ i.fas.fa-envelope {
 i.fas.fa-comments {
   margin-right: 15px;
 }
-
-/** Muito pequeno **/
 
 button#hamburguer-menu {
   background: none;
@@ -94,14 +94,18 @@ button#hamburguer-x>i {
   margin-left: 10px;
 }
 
-.status>a>img {
-  width: 25px;
-  margin-left: 5px;
-  margin-bottom: -4px;
-}
-
 .status > a {
   color: transparent;
+}
+
+div#gup-points {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+div#gup-points img {
+  width: 25px;
+  margin-bottom: -4px;
 }
 
 .nav-header {
@@ -151,6 +155,56 @@ figure.logo img {
   padding-left: 15px;
 }
 
+.gup-details {
+  display: none;
+  position: absolute;
+  right: -15px;
+  width: 160px;
+  top: 45px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+}
+
+.gup-details.open {
+  display: block;
+}
+
+.gup-details:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: 2px;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+a.gup-history {
+  color: #017c84;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.gup-details p {
+  font-size: .7em;
+  font-weight: 800;
+}
+
+span#gup-total {
+  font-size: 0.7em;
+}
+
+a.gup-history {
+  display: block;
+  font-size: .7em;
+}
 
 /** Muito pequeno **/
 
