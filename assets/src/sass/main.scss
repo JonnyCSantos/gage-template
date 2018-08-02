@@ -25,7 +25,7 @@ button#engajar-fixed > i {
   padding-left: 12px;
 }
 
-.feed {
+.content {
   margin-top: 20px;
   color: #797979;
 }
@@ -34,12 +34,7 @@ button#engajar-fixed > i {
 
 /* Engajar */
 
-.gage {
-  margin-top: 20px;
-  color: #797979;
-}
-
-.gage h2 {
+.content h1 {
   font-size: 1.2em;
   color: #464646;
 }
@@ -95,7 +90,10 @@ span.confirm {
 }
 
 form.engajar span {
+  font-size: 1em;
+  font-weight: 400;
   color: #464646;
+  display: block;
 }
 
 input#gages-qtd {
@@ -133,4 +131,147 @@ button#btn-engajar {
 }
 
 /* Engajar */
+
+/* Minha Conta */
+
+section#block-dados {
+  margin-top: 15px;
+}
+
+section#block-assinatura {
+  margin-top: 15px;
+}
+
+button.btn-conta {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: .75em;
+  background: none;
+  border: 0;
+  color: #464646;
+  border-bottom: 1px solid #cacaca;
+}
+
+button.btn-conta i {
+  font-size: 1.3em;
+  float: right;
+  color: #464646;
+}
+
+.section-title h2 {
+  font-size: .9em;
+  color: #464646;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+form.dados-pessoais span {
+  font-size: .7em;
+  font-weight: 600;
+  color: #464646;
+  display: block;
+  margin: 5px 0px;
+}
+
+form.dados-pessoais input {
+  border: 0;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 0.8em;
+  color: #888888;
+  padding: 10px;
+  display: block;
+  margin: 0px 0px 5px 0px;
+  width: -webkit-fill-available;
+}
+
+button.btn-alterar {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 50px;
+  font-size: .8em;
+  font-weight: 600;
+  background-color: #00b7ae;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.plano {
+  margin: 20px 0px;
+  background-color: #e8e8e8;
+  padding: 15px;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+p.status-do-plano {
+  font-size: 1.1em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+span#plano-ativo {
+  font-size: 1.3em;
+  color: #00b7ae;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+p.detalhes {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 20px;
+  color: #8a8a8a;
+}
+
+p.detalhes-bold {
+  text-align: center;
+  font-size: 1.2em;
+  color: #464646;
+  font-weight: 600;
+}
+
+span.cartao {
+  color: #8a8a8a;
+  margin-top: 20px;
+  display: block;
+  font-size: 1em;
+}
+
+p.dados-cartão {
+  font-size: .7em;
+}
+
+button.alterar-cartao {
+  font-size: 0.8em;
+  background: none;
+  border: 0;
+  margin-top: 10px;
+  color: #009891;
+}
+
+button.btn-conta i:last-child {
+  display: none;
+}
+
+section#block-dados {
+  display: none;
+}
+
+section#block-dados .open {
+  display: block;
+}
+
+section#block-assinatura {
+  display: none;
+}
+
+section#block-assinatura .open {
+  display: block;
+}
+
+/* Minha Conta */
 
