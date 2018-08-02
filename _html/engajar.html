@@ -24,7 +24,8 @@
                         </button>
                         <a href="">
                             <i class="fas fa-sign-out-alt"></i>
-                            Sair</a>
+                            Sair
+                        </a>
                     </div>
                     <div class="nav-content">
                         <div class="navegacao">
@@ -60,8 +61,8 @@
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="">
-                                        <i class="fas fa-bullhorn"></i>
+                                    <a href="/engajar.html">
+                                        <i class="fas fa-rocket"></i>
                                         Engajar
                                     </a>
                                 </li>
@@ -106,9 +107,17 @@
                     <a href="">
                         <i class="fas fa-user"></i>
                     </a>
-                    <a href="">
-                        <img src="assets/img/fire.png" alt="">
-                    </a>
+                    <div id="gup-points">
+                        <img src="assets/img/fire.png" alt="">							
+                    </div>
+                    <div class="gup-details">
+                        <p>Você possui:</p>
+                        <span id="gup-total">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            50 Gups
+                        </span>
+                        <a class="gup-history" href="/historico-de-pontos">Ver histórico completo!</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,6 +126,9 @@
         <div class="container">
             <div class="row">
                 <div class="gage">
+                    <div class="breadcrumps">
+                        <p>Home > Engajar</p>
+                    </div>
                     <h2>Começe um GageUp:</h2>
                     <p class="info">Preencha os campos abaixo para começar a engajar suas postagens.</p>
                     <form class="engajar">
@@ -130,15 +142,16 @@
                                 </div>
                             </figure>
                         </div>
-                        <span>Quantos Gages deseja utilizar?</span>
+                        <span>Quantos Gups deseja utilizar?</span>
                         <input id="gages-qtd" type="text">
                         <button id="add-btn" class="btn-qtd">+</button>
                         <button id="del-btn" class="btn-qtd">-</button>
                         <span id="politica">Ler política da empresa.</span>
                         <input type="checkbox" id="confirm">
                         <span class="confirm" for="confirm">Lí e concordo</span>
-                        <button>
-
+                        <button id="btn-engajar">
+                            <i class="fas fa-rocket"></i>
+                            Engajar
                         </button>
                     </form>
                 </div>
